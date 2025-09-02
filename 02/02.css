@@ -1,0 +1,23 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+body {
+    background-color: darkgrey;
+}
+header, main, footer {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    width: 80%;
+    padding: 20px;
+    background-color: azure;
+}
+section {
+    width: 30%;
+}
