@@ -1,6 +1,6 @@
 header, main, footer {
     width: 100%;
-    background-color: rgb(222, 238, 245);
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
 }
@@ -9,12 +9,13 @@ header>h2 {
     font-size: 35px;
     padding: 10px;
     margin: 20px;
+    text-align: center;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
@@ -34,28 +35,34 @@ a {
 
 #a1 {
     padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: orange;
     margin: 20px;
+    background-color: aquamarine;
 }
 
 section.s1 {
-    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: orange;
     padding: 10px;
     margin: 20px;
+    background-color: rgb(227, 255, 191);
 }
 
 section.s2 {
-    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: orange;
     padding: 10px;
     margin: 20px;
+    background-color: rgb(227, 255, 191);
 }
 
 div>img {
     border-radius: 100px;
     margin-right: 20px;
-}
-
-span {
-    display: flex;
 }
 
 footer {
@@ -89,6 +96,11 @@ footer {
     div {
         display: flex;
         padding: 20px;
+    }
+    #a1, section.s1, section.s2 {
+        background-color: white;
+        border: none;
+        border-radius: 0px;
     }
     footer {
         background-color: black;

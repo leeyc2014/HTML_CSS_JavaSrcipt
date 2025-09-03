@@ -28,9 +28,9 @@ ul {
 li {
     font-weight: bold;
 }
-li > i {
+/* li > i {
     font-size: 25px;
-}
+} */
 article {
     width: 80%;
     padding: 20px;
