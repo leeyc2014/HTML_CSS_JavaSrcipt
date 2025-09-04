@@ -2,9 +2,9 @@
     padding:0px;
     margin:0px;
 }
-body {
-    /* background-color: darkgrey; */
-}
+/* body {
+    background-color: darkgrey;
+} */
 header, main, footer {
     width: 100%;
     margin-left: 10%;
