@@ -5,7 +5,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-button {
+/*button,*/ input[type=button], input[type=reset] {
     padding: 10px 20px;
     margin: 5px 15px;
     background-color: blue;
@@ -14,12 +14,35 @@ button {
     border: 0px;
     font-weight: bold;
 }
-button:hover {
+/* button:hover {
+    background-color: brown;
+    cursor: pointer;
+} */
+input[type=button]:hover {
     background-color: brown;
     cursor: pointer;
 }
+/* input[type=reset]:hover {
+    background-color: brown;
+    cursor: pointer;
+ }*/
 .btDiv {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#msg {
+    width: 80%;
+    margin: 50px;
+    border: 1px solid green;
+    height: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+#msg span {
+    color: crimson;
 }
