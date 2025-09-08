@@ -1,0 +1,35 @@
+#diceDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#diceDiv  div {
+    margin: 20px;
+}
+#diceDiv h2 {
+    text-align: center;
+}
+#btDiv > * {
+    background-color: yellowgreen;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+#btDiv > *:hover {
+    background-color: crimson;
+}
+#TF {
+    width: 80%;
+    margin: 20px;
+    border: 1px solid black;
+    height: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+#TF span {
+    color: red;
+}
