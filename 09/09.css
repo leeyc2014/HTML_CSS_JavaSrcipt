@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+}
+form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    font-weight: bold;
+}
+input {
+    width: 20%;
+    height: 10px;
+
+    margin: 5px;
+    padding: 10px;
+}

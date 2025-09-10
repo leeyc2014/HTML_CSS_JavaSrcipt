@@ -30,6 +30,12 @@
     font-size: large;
     font-weight: bold;
 }
-#TF span {
+/* #TF span {
+    color: red;
+} */
+#cor {
+    color: blue;
+}
+#wro {
     color: red;
 }

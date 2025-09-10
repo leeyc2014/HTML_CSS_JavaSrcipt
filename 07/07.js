@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             com.setAttribute('src', `../img/${comNum}.png`);
             user.setAttribute('src', `../img/${userNum}.png`);
 
-            (userNum === comNum) ? TF.innerHTML = "<span>맞음</span>" : TF.innerHTML = "<span>틀림</span>"
+            (userNum === comNum) ? TF.innerHTML = '<span id = "cor">맞음</span>' : TF.innerHTML = '<span id = "wro">틀림</span>'
         });
     }
 });

@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    font-weight: bold;
+}
+#sel1, #sel2 {
+    font-weight: bold;
+    /* text-align: right; */
+}
+select {
+    width: 50%;
+    height: 40px;
+
+    margin: 10px;
+    padding: 10px;
+}
+.inDiv {
+    width: 50%;
+    height: 50px;
+
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.inDiv > input {
+    height: 15px;
+    padding: 5px;
+}
+input[readonly] {
+    background-color: blanchedalmond;
+}
