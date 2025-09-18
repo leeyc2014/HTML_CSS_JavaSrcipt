@@ -9,6 +9,7 @@ body {
 }
 header, main, footer {
     width: 800px;
+
     background-color: white;
 
     margin: 10px;
@@ -61,8 +62,10 @@ main {
 }
 main li {
     border-bottom: 1px solid skyblue;
-    padding: 10px;
+    padding: 5px;
     margin-top: 10px;
+
+    font-size: 15px;
 }
 main li:hover {
     background-color: aquamarine;

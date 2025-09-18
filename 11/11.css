@@ -1,0 +1,58 @@
+/* form {
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+}
+form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    font-weight: bold;
+}
+#backbt, #frontbt {
+    color: white;
+    background-color: black;
+
+    border-radius: 50px;
+    width: 20px;
+}
+#backbt:hover {
+    background-color: red;
+}
+#frontbt:hover {
+    background-color: red;
+} */
+ #mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #mainimg > img {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+ }
+
+ #mainimg > button {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ #mainimg >button:hover {
+    background-color: red;
+ }

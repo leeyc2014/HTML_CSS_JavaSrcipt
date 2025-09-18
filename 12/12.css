@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+    font-size: 50px;
+}
+button {
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 700px;
+}
+.col:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+#msg {
+    height: 20%;
+    margin: 0px;
+}
